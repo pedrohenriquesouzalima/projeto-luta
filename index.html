@@ -11,49 +11,46 @@
 </head>
 
 <body>
+<!--figtharea (local onde acontecerá o evento) -->
 
     <div class="figtharea">
-        <div id="char">
-            <div class="lifebar">
+
+        <div id="char"> <!--personagem-->
+            <div class="lifebar"> <!--barra de vida-->
+                <div class="bar" style="width: 10%;"></div>
+            </div> 
+            <strong Class="name">---</strong> <!--nome do personagem-->
+            <div>
+                <button class="attackButton">atacar</button> <!--botão de ataque -->
+            </div>
+        </div> <!--fim da char-->
+
+
+
+
+
+
+
+
+
+        <div id="monster"> <!--monstro-->
+            <div class="lifebar"> <!--pbaraa de vida-->
                 <div class="bar" style="width: 10%;"></div>
             </div>
-            <strong Class="name">---</strong>
+            <strong Class="name">---</strong> <!--nome do monstro-->
             <div>
-                <button class="attackButton">atacar</button>
+                <button class="attackButton">atacar</button> <!--botão de ataque-->
             </div>
-        </div>
+        </div> <!--final monster-->
 
 
 
 
+    </div>  <!--final fitgharea-->
 
 
 
-
-
-        <div id="monster">
-            <div class="lifebar">
-                <div class="bar" style="width: 10%;"></div>
-            </div>
-            <strong Class="name">---</strong>
-            <div>
-                <button class="attackButton">atacar</button>
-            </div>
-        </div>
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-    <ul class="log"></ul>
+    <ul class="log"></ul> <!--Lista das lutas-->
 
 
 
@@ -67,7 +64,9 @@
 
 
 
-    <script src="assets/script.js"></script>
+    <script src="./assets/js/classes.js"></script>
+    <script src="./assets/js/script.js"></script>
+
 </body>
 
 </html>
